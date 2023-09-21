@@ -8,9 +8,8 @@ function Patient() {
     return (
         
         <>
-
             <Layout/>
-            <h1> Welcome <span className=' username-color'>{user.username} </span> ! </h1>
+            <h1><span className=' username-color pink'>{user.username} </span> is to be admitted soon </h1>
 
         </>
     )

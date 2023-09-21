@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/login";
 import SignUp from "./components/signup";
 import Dashboard from "./pages/Dashboard";
+import Patient from "./pages/Patient";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<SignUp />} />
               <Route path="/Dashboard" element={<Dashboard />} />
-              <Route path="/Patient" element={<Dashboard />} />
+              <Route path="/Patient" element={<Patient/>} />
               <Route path="/ICU" element={<Dashboard />} />
               <Route path="/Doctor" element={<Dashboard />} />
             </Routes>
