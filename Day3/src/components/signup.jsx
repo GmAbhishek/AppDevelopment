@@ -1,52 +1,30 @@
-import { Component } from 'react'
-import { Link } from 'react-router-dom'
-export default class SignUp extends Component {
-  render() {
-    return (
-      <form>
-        <h3>Sign Up</h3>
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import '../App.css';
 
-        <div className="mb-3">
-          <label>First name</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="First name"
-          />
-        </div>
-
-        <div className="mb-3">
-          <label>Last name</label>
-          <input type="text" className="form-control" placeholder="Last name" />
-        </div>
-
-        <div className="mb-3">
-          <label>Email address</label>
-          <input
-            type="email"
-            className="form-control"
-            placeholder="Enter email"
-          />
-        </div>
-
-        <div className="mb-3">
-          <label>Password</label>
-          <input
-            type="password"
-            className="form-control"
-            placeholder="Enter password"
-          />
-        </div>
-
-        <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
-            Sign Up
-          </button>
-        </div>
-        <p className="forgot-password text-right">
-          Already registered? <Link to='/login' >Login</Link>
-        </p>
-      </form>
+function Signup() {
+  const navigate = useNavigate();
+  const submitHandler = () => {
+    navigate('/Login')
+  }
+    return (<>
+      <form className='' onSubmit={submitHandler}>
+      <h1 className=''>Sign Up</h1>
+      <div className="mb-3">
+      <input type="text" name="username" id="username"  placeholder='username' className='auth-field' required />
+      </div> 
+      <div className="mb-3"><input type="password" name="password" id="password"   placeholder='password' className='auth-field' required />
+</div>
+      <div className="mb-3"><input type="password" name="password" id="password"   placeholder=' confirm password' className='auth-field' required />
+</div>
+      <button type='submit' className='auth-btn app-x-shadow'> SignUp</button>
+    </form>
+    <Link to='/login' > Already registered? </Link>
+    </>
     )
   }
-}
+
+export default Signup;
+{/* <p className="forgot-password text-right">
+          Already registered? <Link to='/login' >Login</Link>
+        </p> */}

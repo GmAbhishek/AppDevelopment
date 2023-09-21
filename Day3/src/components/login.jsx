@@ -1,52 +1,45 @@
-import  { Component } from 'react'
-import { Link } from 'react-router-dom'
+import {  useState } from 'react'
+import { useNavigate, Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux';
+import { login } from '../redux/userSlice';
+import '../App.css';
+import Nav from './nav';
 
-export default class Login extends Component {
-  render() {
-    return (
-      <form>
-        <h3>Login</h3>
+function Login() {
+  
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const [formdata, setFormdata] = useState({
+      username: '',
+      password: ''
+    })
+    const handleChange = (e) => {
+      setFormdata({ ...formdata, [e.target.id]: e.target.value })
+    }
+    const submitHandler = (e) => {
 
-        <div className="mb-3">
-          <label>Email address</label>
-          <input
-            type="email"
-            className="form-control"
-            placeholder="Enter email"
-          />
-        </div>
+      console.log(formdata.username,formdata.password)
+      
+      e.preventDefault;
+      dispatch(login({
+        username :formdata.username
+      }))
+      navigate('/Dashboard')
+    }
+    return (<>
 
-        <div className="mb-3">
-          <label>Password</label>
-          <input
-            type="password"
-            className="form-control"
-            placeholder="Enter password"
-          />
-        </div>
-
-        <div className="mb-3">
-          <div className="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              className="custom-control-input"
-              id="customCheck1"
-            />
-            <label className="custom-control-label" htmlFor="customCheck1">
-              Remember me
-            </label>
-          </div>
-        </div>
-
-        <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </div>
-        <p className="forgot-password text-right">
-         <Link to='/signup' > Don&#39;t have an account?</Link>
-        </p>
-      </form>
+<Nav/>
+      <form className='' onSubmit={submitHandler}>
+      <h1 className=''>Login</h1>
+      <div className="mb-3">
+      <input type="text" name="username" id="username" value={formdata.username} onChange={handleChange} placeholder='username' className='auth-field' required />
+      </div> <div className="mb-3"><input type="password" name="password" id="password" value={formdata.password} onChange={handleChange} placeholder='password' className='auth-field' required />
+</div>
+      <button type='submit' className='auth-btn app-x-shadow'> Login </button>
+    </form>
+    <Link to='/signup' > Don&#39;t have an account?</Link>
+    </>
     )
   }
-}
+
+export default Login;
