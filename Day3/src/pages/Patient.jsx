@@ -1,6 +1,10 @@
 
+import { useSelector } from 'react-redux'
+import { selectUser } from '../redux/userSlice'
 import Layout from '../components/Layout'
 function Patient() {
+    
+    const user=useSelector(selectUser)
     return (
         
         <>
