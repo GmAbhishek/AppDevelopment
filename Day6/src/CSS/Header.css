@@ -1,0 +1,29 @@
+header {
+  position: absolute;
+  width: 95%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 30px;
+    z-index: 999;
+}
+header li {
+    margin-right: 40px;
+  }
+  header ul {
+    padding: 30px 20px;
+  }
+
+  header ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  header ul li a:hover {
+    color: #1eb2a6;
+  }
+  .start {
+    /* size: '10%'; */
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+  }

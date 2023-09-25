@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": 1,
+        "content": "COURSE ENROLLED",
+        "numbers":5,
+        "imagePath":"course-enrolled.png"
+    },
+    {
+        "id": 2,
+        "content": "OVERALL COMPLETION",
+        "numbers":0,
+        "imagePath":"completion.png"
+    },
+    {
+        "id": 3,
+        "content": "COURSE COMPLETED",
+        "numbers":0,
+        "imagePath":"course-completion.png"
+    },
+    {
+        "id": 3,
+        "content": "COURSE EXPIRED",
+        "numbers":0,
+        "imagePath":"expired.png"
+    }
+]

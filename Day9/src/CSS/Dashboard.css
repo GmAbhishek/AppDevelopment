@@ -1,0 +1,22 @@
+.dashboard-container {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 88%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.navbar-container {
+
+    position: absolute;
+    top: 0%;
+    left: 17.44%;
+    height: 12%;
+    width: 81.56%;
+    overflow: visible;
+}
+
+.dashboard-container::-webkit-scrollbar {
+    display: none;
+}
