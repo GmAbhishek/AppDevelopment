@@ -1,0 +1,65 @@
+.container {
+    background-image: url('../Images/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+    position: absolute;
+}
+
+.signup-credentials {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    height: 60%;
+    width: 50%;
+    background-color: white;
+    border-radius: 2%;
+}
+
+.signup-form {
+    width: 80%;
+    position: inherit;
+    top: 20%;
+    left: 10%;
+}
+
+.a-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 1.5rem;
+    font-weight: 500;
+    border-radius: 2px;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    transition: background-color .25s ease-in-out;
+    cursor: pointer;
+    font-size: .9375rem;
+    line-height: 1.5rem;
+    padding: 12px 16px;
+    background-color: #f02d00;
+    color: #fff;
+}
+
+.form-control-xl {
+    height: calc(1.5em + 0.9381rem + 2px);
+    padding: 0.344rem 0.75rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    border-radius: 0.125rem;
+}
+
+.signup-footer {
+    position: relative;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 0 0 6px 6px;
+    top: 71%;
+}
