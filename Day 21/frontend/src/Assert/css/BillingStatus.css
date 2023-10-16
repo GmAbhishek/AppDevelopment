@@ -1,0 +1,39 @@
+.containers{
+    margin-left: 12%;
+    margin-right: 8%;
+}
+.containers h2{
+    font-size: 35px;
+    margin-left: 43%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+table{
+    width: 100%;
+  margin-left: 1%;
+    border-collapse: collapse;
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 2px 2px rgb(145, 143, 143);
+    background-image: linear-gradient(pink,rgb(195, 195, 248));
+}
+td{
+    text-align: left;
+    border: 1px solid rgb(191, 189, 189);
+    padding-left: 8px;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 1%;
+    }
+    th{
+        text-align: left;
+        padding: 20px;
+        font-size:25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 1px solid  rgb(191, 189, 189);
+    
+        }
+.billingstatus
+{
+    margin-top: -30%;
+    background-color: beige,cover;
+}

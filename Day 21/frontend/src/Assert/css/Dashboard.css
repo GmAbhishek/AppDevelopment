@@ -1,0 +1,36 @@
+.dash{
+    margin-left: 7%;
+    margin-top: -40%;
+    color: white;
+  
+}
+.nor{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 9%;
+    
+    
+}
+.bor{
+    border: 1px solid black;
+    padding: 14px;
+    border-radius: 9px;
+    margin-left: 3%;
+    margin-block: -40px;
+    width: 25%;
+    background-image: linear-gradient(rgb(168, 168, 207),rgb(216, 166, 202))
+    
+}
+.bar{
+    font-size: 24px;
+    margin-left: 0%;
+    margin-block: -30px;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+.board
+{
+    margin-top: -41%;
+}

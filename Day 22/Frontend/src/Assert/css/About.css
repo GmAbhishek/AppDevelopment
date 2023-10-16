@@ -1,0 +1,75 @@
+.containerbg{
+    
+    background-position:top;
+    background-size: cover;
+    
+
+}
+.containerabt{
+    padding-bottom: 3%;
+    
+}
+.imgs{
+    float: right;
+    margin-block: -15%;
+    margin-right: 10%;
+   
+}
+.imgs1{
+    float: right;
+    margin-block: -15%;
+    margin-right: 11%;
+   padding-top: 50px;
+}
+.abt{
+margin-left: 3%;
+font-size: 20px;
+margin-top: 1%;
+color: rgb(0, 0, 0);
+justify-content: center;
+}
+.abtus{
+    margin-left: 45%;
+    font-size:30px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.team{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.teamname{
+    margin-top: 4px;
+    margin-left: 7%;
+    font-size:30px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    justify-content: center;
+}
+.team img{
+    margin-left: 25%;
+}
+.abt1{
+    margin-left: 10%;
+font-size: 20px;
+margin-top: 1%;
+color: rgba(0, 0, 0, 0.673);
+}
+.abtus1{
+    margin-left: 9%;
+    font-size:30px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.823);
+    font-weight: bolder; 
+}
+.abtpage
+{
+    margin-top: 0px;
+    background-image: url("../images/con.jpg");
+    background-size: cover;
+
+}

@@ -1,0 +1,37 @@
+.container-homepage{
+    margin-left: 12%;
+    margin-top:-50%
+  
+  }
+  .roomtypes h2{
+  margin: 7px;
+  }
+  .rooms{
+    box-shadow: 2px 4px 3px 3px rgb(232, 228, 228);
+    overflow-y: hidden;
+    margin-left: 10%;
+    width: 77%;
+    padding: 15px;
+    margin-bottom: 8px;
+  }
+  .des{
+    float: right;
+  margin-right: 25%;
+  font-size: 19px;
+  }
+  .des h6{
+    margin-top: 8px;
+    font-size: 13px;
+  }
+  
+  .des p{
+    font-size: 17px;
+    margin-left: 125%;
+    border: 1px solid rgb(46, 45, 45);
+    width: 35%;
+    padding: 6px 0 3px 7px;
+    color: #fff;
+    background-color: rgb(45, 40, 40);
+    cursor: pointer;
+  }
+ 

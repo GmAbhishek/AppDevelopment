@@ -1,0 +1,112 @@
+/* Billing.css */
+
+.bill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin-top: -50%;
+  }
+  
+  .bill-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+  }
+  
+  .billform {
+    text-align: center;
+  }
+  
+  .billhead {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .billhead h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+.list1
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-color: #fffafa;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+   
+}
+.button1
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 85px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    left: 100px;
+    margin-left: -250px;
+}
+.button2
+{
+    position: absolute;
+    border-radius: 10px;
+    background: #0e0d0d;
+    width: 85px;
+    height: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    left: 140px;
+}
+.list1 {
+  position: relative;
+}
+
+/* CSS for the "Booking Confirmed" popup content */
+.success-popup {
+  position: absolute;
+  margin-top: -10px;
+  top: 100%; /* Position the popup below the button */
+  left: 0;
+  background-color: white; /* Set the background color as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 4; /* Ensure the popup is above other content */
+}
+
+  

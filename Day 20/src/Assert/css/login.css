@@ -1,0 +1,90 @@
+.rectangle
+{
+    position: absolute;
+    width: 488px;
+    height: 530px;
+    left: 500px;
+    top: 70px;
+    background: rgba(252, 253, 255, 0.792);
+    border-radius: 50px;
+   
+}
+
+.form
+{
+    position: absolute;
+    left: 550px;
+    top: 185px;
+    font-size: 25px;
+}
+
+::placeholder
+{
+    font-size: 20px;
+}
+
+.but
+{
+    position: absolute;
+    border-radius: 1000px;
+    background: #0e0d0d;
+    width: 177px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fefafa;
+    left: 100px;
+}
+
+input[type=text100]
+{
+   
+    size: 50;
+    height: 25px;
+    font-size: 20px;
+    width: 220px;
+    color:#000000
+}    
+input[type=password]
+{
+    size: 50;
+    height: 25px;
+    width: 220px;
+    font-size: 20px;
+    color:#000000;
+    
+}
+
+.login
+{
+    position: absolute;
+   left: 670px;
+   top: 90px;
+   font-style: normal;
+   font-size: 40px;
+   color: #0e0e0e;
+}
+
+.body {
+    background-image: url("../images/login1.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+  
+  .layer {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #451754;
+    opacity:0.2;
+
+
+  }

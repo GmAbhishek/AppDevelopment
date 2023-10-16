@@ -1,0 +1,109 @@
+.containerrd{
+    margin-top: 1%;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 1%;
+  }
+  .descontent{
+  
+    padding: 1%;
+    margin-left: 12%;
+    border: 1px solid black;
+    width: 40vh;
+  }
+  .descontent h6{
+    color: rgb(89, 88, 88);
+  }
+  .descontent p{
+    font-size: 20px;
+    margin-left: 3%;
+    font-weight: bold;
+  }
+  .descontent b{
+    font-size: 30px;
+  }
+  .descontent span{
+    color:rgb(151, 150, 150);
+    text-decoration: line-through;
+  }
+  .descontent button{
+    width: 30%;
+    font-size: small;
+    padding: 2%;
+    margin-left: 10vh;
+  }
+  .booknow{
+    font-size: 100px;
+  }
+  .containercc{
+    margin-left: -30%;
+    margin-bottom: 5px;
+    margin-block: -50px;
+    margin-top: -7%;
+  }
+  .containercc h4{
+    color: rgb(127, 126, 126);
+  }
+  div.card {
+    margin-left: 39%;
+    margin-block: 10px;
+    width: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  div.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+  }
+  div.container {
+    padding: 10px;
+  }
+  .checkin{
+    display: flex;
+  
+  }
+  .checkin1{
+    padding: 5px;
+    display: flex;
+    font-size: larger;
+    margin-left: 2%;
+  }
+  
+  .checkout{
+    display: flex;
+  
+  }
+  .checkout1{
+    padding: 5px;
+    display: flex;
+    font-size: larger;
+    margin-left: 3%;
+    margin-bottom: 10px;
+  }
+  .containercc h3{
+    font-size: 20px;
+  }
+  .hotelpolicy h3{
+    font-size: 20px;
+    margin-bottom: 1%;
+  }
+  .containercc li{
+    font-size: 17px;
+    
+  }
+  .linebill{
+    margin-top: 2%;
+    border: 1px solid black;
+    width: 40vh;
+    margin-inline: -15px;
+  
+  }
+  .room
+  {
+    margin-top: -50%;
+  }
+  .roomlist{
+    margin-top: -3%;
+  }

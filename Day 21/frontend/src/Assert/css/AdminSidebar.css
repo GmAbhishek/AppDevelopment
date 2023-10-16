@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+.left-bar1
+{
+    display: flex;
+   flex-direction: column;
+     height: 800px;
+     width: 9%;
+     margin-left: -1%;
+     background-color: #89379c;
+     margin-top: 64px;
+}
+.left-bar-container1
+{
+    height: 800px;
+    background-color: #89379c;
+    
+}
+.left-bar-btn1
+{
+   height: 100px;
+   background-color: #a940c1;
+}
+.dashboard1
+{
+    font-size: 20px;
+    justify-content: center;
+    color: #03103d;
+    margin-block: -10px;
+    font-weight: bold;
+
+}
+.logout
+{
+    font-size: 20px;
+    justify-content: center;
+    color: #03103d;
+    margin-block: -10px; 
+    font-weight: bold;
+
+}
+
+  
+  

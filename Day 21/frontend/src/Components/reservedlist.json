@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "name": "Akshaya",
+      "checkindate":"23-09-23",
+      "checkoutdate":"24-09-23",
+      "roomtypes": "Deluxe",
+      "bill":"₹983",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "name": "indhu",
+      "checkindate":"10-09-23",
+      "checkoutdate":"24-09-23",
+      "roomtypes": "Standard",
+      "bill":"₹14023",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "name": "inika",
+      "checkindate":"1-02-23",
+      "checkoutdate":"4-03-23",
+      "roomtypes": "Deluxe",
+      "bill":"₹12234",
+      "status": "Failed"
+    },
+    {
+      "id": 4,
+      "name": "Archana",
+      "checkindate":"10-10-23",
+      "checkoutdate":"11-10-23",
+      "roomtypes": "Deluxe",
+      "bill":"₹983",
+      "status": "Paid"
+    },
+    {
+      "id": 5,
+      "name": "joe",
+      "checkindate":"01-01-23",
+      "checkoutdate":"01-09-23",
+      "roomtypes": "Single Bed",
+      "bill":"₹234569",
+      "status": "Paid"
+    },
+    {
+      "id": 6,
+      "name": "Jim",
+      "checkindate":"23-09-23",
+      "checkoutdate":"24-09-23",
+      "roomtypes": "Super-Deluxe",
+      "bill":"₹1283",
+      "status": "Paid"
+    },
+    {
+      "id": 7,
+      "name": "jack",
+      "checkindate":"2-09-23",
+      "checkoutdate":"4-09-23",
+      "roomtypes": "Professional Suite",
+      "bill":"₹5483",
+      "status": "Failed"
+    },
+    {
+      "id": 8,
+      "name": "Hari",
+      "checkindate":"12-12-23",
+      "checkoutdate":"31-12-23",
+      "roomtypes": "Standard",
+      "bill":"₹10853",
+      "status": "Advance Paid"
+    },
+    {
+      "id": 9,
+      "name": "Maddy",
+      "checkindate":"3-09-23",
+      "checkoutdate":"4-09-23",
+      "roomtypes": "Double Beded",
+      "bill":"₹1300",
+      "status": "Paid"
+    }
+
+  ]
